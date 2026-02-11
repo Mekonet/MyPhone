@@ -1,0 +1,136 @@
+<div class="my-container ">
+    <div class="row g-0">
+        <!-- תמונת מוצר -->
+        <div class="col-4 p-4">
+            <div class="d-flex justify-content-center align-item-center">
+                <img src="../../../assets/Images/{{product.productCategory.subCategory}}/{{product.id}}/{{imageIndex}}.jpg" alt="" class="w-100">
+            </div>
+            <div class="image-thumbnails mt-4 d-flex justify-content-between align-item-center">
+                <img src="../../../assets/Images/{{product.productCategory.subCategory}}/{{product.id}}/1.jpg" alt="Thumbnail Image"
+                (click)="imageIndex = 1">
+                <img src="../../../assets/Images/{{product.productCategory.subCategory}}/{{product.id}}/2.jpg" alt="Thumbnail Image"
+                (click)="imageIndex = 2">
+                <img src="../../../assets/Images/{{product.productCategory.subCategory}}/{{product.id}}/3.jpg" alt="Thumbnail Image"
+                (click)="imageIndex = 3">
+                <img src="../../../assets/Images/{{product.productCategory.subCategory}}/{{product.id}}/4.jpg" alt="Thumbnail Image"
+                (click)="imageIndex = 4">
+                <img src="../../../assets/Images/{{product.productCategory.subCategory}}/{{product.id}}/5.jpg" alt="Thumbnail Image"
+                (click)="imageIndex = 5">
+            </div>
+        </div>
+        <!-- פרטים -->
+          <div class="col-8 p-4">
+            <div class="card">
+                <div class="card-header">
+                    <h2>{{product.title | titlecase}}</h2>
+                </div>
+
+                <div class="card-body">
+                    <h1 class="card-title text-success">
+                        {{utilityService.applyDiscount(product.price,product.offer.discount)}}
+                        <span class="text-primary">-{{product.offer.discount}}%</span>
+                    </h1>
+                    <h4 class="card-subtitle text-danger text-decoration-line-through">
+                        {{product.price}}
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-subtitle my-2 text-primary"> {{product.quantity}} products are available. </h6>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-success" [disabled]="!utilityService.isLoggedIn()"
+                                (click)="this.utilityService.addToCart(product)">Add to Cart
+                            <span *ngIf="!utilityService.isLoggedIn()">(Login First)</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-text">Description</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action"
+                            *ngFor="let item of product.description.split('. ')">
+                            {{item}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="isEditMode" class="card-body">
+        <form (ngSubmit)="saveChanges()" #editForm="ngForm">
+          <div class="mb-3">
+            <label for="title" class="form-label">Title:</label>
+            <input type="text" class="form-control" id="title" name="title" [(ngModel)]="editedProduct.title" required>
+          </div>
+          <div class="mb-3">
+            <label for="title" class="form-label">price:</label>
+            <input type="text" class="form-control" id="price" name="price" [(ngModel)]="editedProduct.price" required>
+          </div><div class="mb-3">
+            <label for="title" class="form-label">description:</label>
+            <input type="text" class="form-control" id="description" name="description" [(ngModel)]="editedProduct.description" required>
+          </div><div class="mb-3">
+            <label for="title" class="form-label">discount:</label>
+            <input type="text" class="form-control" id="discount" name="discount" [(ngModel)]="editedProduct.offer.discount" required>
+          </div><div class="mb-3">
+            <label for="title" class="form-label">quantity:</label>
+            <input type="text" class="form-control" id="quantity" name="quantity" [(ngModel)]="editedProduct.quantity" required>
+          </div>
+          <!-- Add input fields for other properties of the product -->
+          <button type="submit" class="btn btn-primary">Save Changes</button>
+          <button type="button" class="btn btn-secondary" (click)="cancelEdit()">Cancel</button>
+          <button type="button" class="btn btn-danger" (click)="deleteProduct(this.product.id)">מחק מוצר</button>
+
+        </form>
+      </div>
+      <!-- View Mode -->
+            <div *ngIf="!isEditMode"class="card-body">
+                <button *ngIf="utilityService.getUser().IsAdmin" type="button" class="btn btn-primary" (click)="startEdit()">Edit</button>
+            </div>
+    <!-- הצעות -->
+    <div class="row g-0">
+        <div class="col-12 ps-5 pt-4 pb-3">
+            <h3 class="border border-secondary text-center py-2 my-rounded-corner w-25 mx-auto">מוצרים דומים</h3>
+        </div>
+        <div class="col-12">
+            <app-suggested-products [category]="product.productCategory"></app-suggested-products>
+        </div>
+    </div>
+    <!-- ביקורת -->
+    <div class="row g-0 my-5">
+         <!-- חוות דעת -->
+         <div class="col p-3">
+             <h3 style="text-align: right; margin-right: 180px;">:השאר ביקורת</h3>
+             <h5 class="mt-4" style="text-align: right; margin-right: 180px;">כתוב חוות דעת</h5>
+             <textarea class="w-75 p-2" [formControl]="reviewControl"></textarea>
+             <div class="d-flex align-item-start">
+                <button class="btn btn-outline-secondary mt-4 me-5" type="button" (click)="submitReview()">שמור</button>
+                <div>
+                    <h6 class="text-danger mt-4" *ngIf="!utilityService.isLoggedIn()">התחבר כדי לתת חוות דעת</h6>
+                    <h6 class="text-danger" *ngIf="showError">חוות דעת לא יכולה להיות ריקה</h6>
+                    <h6 class="text-success" *ngIf="reviewSaved">חוות דעת נשמרה בהצלחה</h6>
+                </div>
+             </div>
+         </div>
+         
+         <!--  ביקורות  -->
+         <div class="col p-3">
+            <h3 style="text-align: right;">:ביקורות</h3>
+            <h6 *ngIf="otherReviews.length === 0">!אין ביקורות עדיין</h6>
+            <div class="card mt-3" *ngFor="let review of otherReviews">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="card-text">
+                        {{review.user.firstName}}
+                        {{review.user.lastName}}
+                    </div>
+                    <div class="card-text fst-italic">
+                     <span class="fw-bold"> {{review.createdAt }}</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="card-text">{{review.value}}</div>
+                </div>
+           </div>
+      </div>
+    </div>
+</div>
+
+    

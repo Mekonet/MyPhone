@@ -1,0 +1,71 @@
+<header class="w-100 h-100 bg-dark px-4 my-shadow d-flex justify-content-between align-items-center">
+    <div class="text-light fs-2 fw-bold fst-italic">
+        <span>סמארט פויינט</span>
+    </div>
+    <div class="search-container">
+        <button (click)="searchProducts()"><i class="fa fa-search"></i></button>
+<input type="text" [(ngModel)]="searchQuery" placeholder="Search products..." (keyup.enter)="searchProducts()">
+      </div>
+    <div class="btn-toolbar" role="toolbar">
+        <div class="btn-group btn-group-lg me-3" role="group">
+            <button type="button" class="btn btn-outline-light" routerLink="/add-product"
+                    *ngIf="utilityService.isLoggedIn()">הוסף מוצר
+           </button>
+            <button type="button" class="btn btn-outline-light" routerLink="/home">
+                <span style="font-size:24px;">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </span></button>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">
+                    קטגוריות
+                </button>
+                <ul class="dropdown-menu fs-5">
+                    <ng-container *ngFor="let item of navigationList; let i = index;">
+                        <li class="text-center fw-bold">{{item.category | titlecase}}</li>
+                        <li *ngFor="let subcategory of item.subcategories" [style.cursor]="'pointer'">
+                            <a class="dropdown-item" OpenProducts
+                               [category]="{id: 0, 'category': item.category, 'subCategory': subcategory}">
+                                {{subcategory | titlecase}}
+                            </a>
+                        </li>
+                        <li *ngIf="i !== navigationList.length - 1">
+                            <hr class="dropdown-divider">
+                        </li>
+                    </ng-container>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-group btn-group-lg me-2" role="group">
+            <button type="button" class="btn btn-outline-light text-success " data-bs-toggle="modal" data-bs-target="#generalmodal"
+                    (click)="openModal('login')" *ngIf="!utilityService.isLoggedIn()">התחבר</button>
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#generalmodal"
+                    (click)="openModal('register')" *ngIf="!utilityService.isLoggedIn()">הרשמה</button>
+            <button type="button" class="btn btn-outline-light" *ngIf="utilityService.isLoggedIn()">{{utilityService.getUser().firstName}} {{utilityService.getUser().lastName}}</button>
+            <button type="button" class="btn btn-outline-light" routerLink="/cart"
+            *ngIf="utilityService.isLoggedIn()">
+                 <span style="margin-right: 10px;font-size:24px;"><i class="fa fa-shopping-cart"></i></span>
+                 <span class="badge bg-warning text-dark">{{cartItems}}</span>
+            </button>
+            <button type="button" class="btn btn-outline-light" routerLink="messages">
+                <i class="fa fa-envelope-o"></i>
+            </button>
+            <button type="button" class="btn btn-outline-light text-danger" (click)="utilityService.logoutUser()"
+                    *ngIf="utilityService.isLoggedIn()">התנתק
+            </button>
+        </div>
+    </div>
+</header>
+<!---->
+<div class="modal fade" id="generalmodal" data-bs-backdrop="static" data-bs-keybord="false" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" #modalTitle></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <ng-container #container></ng-container>
+            </div>
+        </div>
+    </div>
+</div>

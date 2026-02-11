@@ -1,0 +1,56 @@
+<div class="my-container">
+    <div *ngIf="searchResults.length > 0; else noResults">
+        <div class="border mb-5 p-3 d-flex justify-content-around">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-outline-secondary" [ngClass]="{'active': view === 'grid'}" (click)="view = 'grid'">
+          <span><i class="fa fa-th-large" aria-hidden="true"></i></span>
+        </button>
+        <button type="button" class="btn btn-outline-secondary" [ngClass]="{'active': view === 'list'}" (click)="view = 'list'">
+          <span><i class="fa fa-list" aria-hidden="true"></i></span>
+        </button>
+      </div>
+  
+      <div class="w-50 d-flex">
+        <span class="me-5 d-flex align-item-center fs-5 fw-bold">: תצוגה </span>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-outline-secondary" [ngClass]="{'active': sortby === 'default'}" (click)="sortby = 'default'; sortByPrice(sortby)">
+            ברירת מחדל
+          </button>
+          <button type="button" class="btn btn-outline-secondary" [ngClass]="{'active': sortby === 'htl'}" (click)="sortby = 'htl'; sortByPrice(sortby)">
+            מחיר (מהגבוה לנמוך)
+          </button>
+          <button type="button" class="btn btn-outline-secondary" [ngClass]="{'active': sortby === 'lth'}" (click)="sortby = 'lth'; sortByPrice(sortby)">
+            מחיר (מהנמוך לגבוה)
+          </button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="border p-5">
+  
+       <!-- משובץ -->
+   <div class="grid-view" *ngIf="view === 'grid'">
+    <div class="row g-5">
+        <div class="col-3" *ngFor="let result of searchResults">
+            <app-product [product]="result"></app-product>
+        </div>
+    </div>
+</div>
+  
+<!-- רשימה -->
+<div class="list-view" *ngIf="view === 'list'">
+    <div class="row mb-5" *ngFor="let result of searchResults">
+        <div class="col">
+            <app-product [view]="'list'" [product]="result"></app-product>
+        </div>
+    </div>
+</div>
+    </div>
+    </div>
+    <ng-template #noResults>
+        <div>
+          <p class="text-danger text-center" style="font-size: 24px;" >!לא נמצאו תוצאות לחיפוש נסה שנית ובאנגלית</p>
+        </div>
+      </ng-template>
+  </div>
+  

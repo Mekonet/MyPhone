@@ -1,0 +1,96 @@
+<div class="my-container mx-auto">
+    <section class="m-3 p-4 border border-dark my my-rounded-corner">
+        <h4 class="w-25 border border-secondary text-center py-2 my-rounded-corner mx-auto mb-3">תשלום</h4>
+        <table class="table w-50 mx-auto table-bordered table-hover my-shadow">
+            <tbody>
+                <tr>
+                    <td class="fs-5 fw-bold">{{usersCart.cartItems.length}}</td>
+                    <td>כמות</td>
+                </tr>
+                <tr>
+                    <td class="fs-5 fw-bold text-danger">
+                        &#8362;	
+                        {{usersPaymentInfo.totalAmount}}
+                    </td>
+                    <td>מחיר</td>
+                </tr>
+                <tr>
+                    <td class="fs-5 fw-bold text-danger">
+                        &#8362;	
+                        {{usersPaymentInfo.shipingCharges}}
+                    </td>
+                    <td>משלוח</td>
+                </tr> 
+                 <tr>
+                    <td class="fs-5 fw-bold text-success">
+                        &#8362;	
+                        {{usersPaymentInfo.amountReduced}}
+                    </td>
+                    <td>הנחה</td>
+                </tr>
+                <tr>
+                    <td class="fs-5 fw-bold text-success">
+                        &#8362;	
+                        {{usersPaymentInfo.amountPaid}}
+                    </td>
+                    <td>לתשלום</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="m-3 p-4 border border-dark my-rounded-corner">
+        <h4 class="w-25 border border-secondary text-center py-2 my-rounded-corner mx-auto mb-3">אמצעי תשלום</h4>
+        <div class="d-flex justify-content-center align-items-center">
+            <select class="form-select w-25" [formControl]="selectedPaymentMethod">
+                <option value="0">בחר</option>
+                <option *ngFor="let paymentMethod of paymentMethods" value="{{paymentMethod.id}}">
+                    {{paymentMethod.type}}
+                    <span *ngIf="paymentMethod.provider !== ''">{{" - " + paymentMethod.provider}}</span>
+                </option>
+            </select>
+            <h5 class="me-4"> : בחר אמצעי תשלום</h5>
+        </div>
+    </section>
+
+    <section class="m-3 p-4 border border-dark my-rounded-corner">
+        <h4 class="w-25 border border-secondary text-center py-2 my-rounded-corner mx-auto">Proceed to Payment</h4>
+        <div class="mt-4 w-50 mx-auto" *ngIf="selectedPaymentMethodName !== ''">
+            <table class="table table-bordered my-shadow">
+                <thead>
+                    <tr>
+                        <td>
+                            &#8362;	
+                            {{usersPaymentInfo.amountPaid}}
+                        </td>
+                        <td>לתשלום</td>
+                    </tr>
+                    <tr>
+                        <td>{{this.getPaymentMethod(selectedPaymentMethodName)}}</td>
+                        <td>אמצעי תשלום</td>
+                    </tr>
+                    <tr>
+                        <td *ngIf="true">{{address}}</td>
+                        <td>כתובת</td>
+                    </tr>
+                    <tr>
+                        <td *ngIf="true">{{mobileNumber}}</td>
+                        <td> טלפון</td>
+                    </tr>
+                </thead>
+            </table>
+            <div class="d-grid w-50">
+                <button type="button" class="btn btn-outline-success mb-4"
+                    (click)="placeOrder()">
+                    שלם
+                </button>
+            </div>
+            <div class="processing">
+                <div class="spinner-border me-4" role="status" *ngIf="displaySpinner">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <h6 class="{{classname}}">{{message}}</h6>
+            </div>
+        </div>
+    </section>
+</div>

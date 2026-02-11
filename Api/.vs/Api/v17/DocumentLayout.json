@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\dataaccess\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\dataaccess\\idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\dataaccess\\idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|c:\\users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\myphone\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E9943505-38A4-41DB-8FAD-D2F1F3923248}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\DataAccess\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Api\\DataAccess\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\DataAccess\\DataAccess.cs*",
+              "RelativeToolTip": "Api\\DataAccess\\DataAccess.cs*",
+              "ViewState": "AQIAAHEBAAAAAAAAAAAAAIMBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-19T09:59:24.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Product.cs",
+              "RelativeToolTip": "Api\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-28T16:05:11.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\DataAccess\\IDataAccess.cs",
+              "RelativeDocumentMoniker": "Api\\DataAccess\\IDataAccess.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\DataAccess\\IDataAccess.cs",
+              "RelativeToolTip": "Api\\DataAccess\\IDataAccess.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA5wB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-19T09:59:24.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShoppingController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Controllers\\ShoppingController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\ShoppingController.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Controllers\\ShoppingController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ShoppingController.cs",
+              "ViewState": "AQIAAPQAAAAAAAAAAAAkwAQBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-28T16:03:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Cart.cs",
+              "RelativeToolTip": "Api\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T10:25:09.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Review.cs",
+              "RelativeToolTip": "Api\\Models\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T18:42:58.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-28T12:33:39.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Order.cs",
+              "RelativeToolTip": "Api\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T16:25:19.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\ProductCategory.cs",
+              "RelativeToolTip": "Api\\Models\\ProductCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-28T16:05:54.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\CartItem.cs",
+              "RelativeToolTip": "Api\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T10:29:24.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\PaymentMethod.cs",
+              "RelativeToolTip": "Api\\Models\\PaymentMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T13:32:51.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\User.cs",
+              "RelativeToolTip": "Api\\Models\\User.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIBAwA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-28T15:48:15.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Payment.cs",
+              "RelativeToolTip": "Api\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T13:35:21.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Offer.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Offer.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Models\\Offer.cs",
+              "RelativeToolTip": "Api\\Models\\Offer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-28T16:05:27.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Api\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\WeatherForecast.cs",
+              "RelativeToolTip": "Api\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-17T19:39:25.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-09-28T15:50:55.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Api.csproj",
+              "DocumentMoniker": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Api.csproj",
+              "RelativeDocumentMoniker": "Api\\Api.csproj",
+              "ToolTip": "C:\\Users\\\u05E1\u05D9\u05DE\u05DF \u05D0\u05E7\u05DC\u05D5\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\MyPhone\\Api\\Api\\Api.csproj",
+              "RelativeToolTip": "Api\\Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-19T09:59:24.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

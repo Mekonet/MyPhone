@@ -1,0 +1,83 @@
+<div class="my-container">
+    <div class="p-4 border my-rounded-corner">
+        <h3 class="w-25 border text-center py-2 my-rounded-corner" style="margin: auto;">עגלה</h3>
+        <div class="mt-5">
+            <div class="d-grid w-50 mx-auto mb-3">
+                <button class="btn btn-outline-success fs-4" type="button" routerLink="/orders">הזמנה</button>
+            </div>
+            <table class="table w-50 mx-auto table-bordered table-hover my-shadow">
+                <tbody>
+                    <tr>
+                        <td class="fs-5 fw-bold">{{usersCart.cartItems.length}}</td>
+                        <td>כמות</td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 fw-bold text-danger">
+                            &#8362;	
+                            {{usersPaymentInfo.totalAmount}}
+                        </td>
+                        <td>מחיר</td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 fw-bold text-danger">
+                            &#8362;	
+                            {{usersPaymentInfo.shipingCharges}}
+                        </td>
+                        <td>משלוח</td>
+                    </tr> 
+                     <tr>
+                        <td class="fs-5 fw-bold text-success">
+                            &#8362;	
+                            {{usersPaymentInfo.amountReduced}}</td>
+                        <td>הנחה</td>
+                    </tr>
+                    <tr>
+                        <td class="fs-5 fw-bold text-success">
+                            &#8362;	
+                            {{usersPaymentInfo.amountPaid}}
+                        </td>
+                        <td>לתשלום</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="current-cart-items w-75 mx-auto mt-5">
+                <h4 style="text-align: right;"> :מוצרים </h4>
+                <div class="row mt-4 g-0">
+                    <div class="col-6 py-3 px-2" *ngFor="let cartItem of usersCart.cartItems">
+                        <app-product [view]="'currcartitem'" [product]="cartItem.product" ></app-product>
+                        <span *ngIf="cartItem.count > 1" class="badge bg-dark " style="font-size: 18px; border-radius: 120px;">{{cartItem.count}}</span>
+                        <button class="btn btn-danger mt-2" (click)="removeProductFromCart(cartItem.product.id, cartItem.id)">מחק</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 p-4 border my-rounded-corner">
+        <h3 class="w-25 border text-center py-2 mb-5 my-rounded-corner" style="margin: auto;">רכישות קודמות </h3>
+        <div class="card mb-5" *ngFor="let cart of usersPreviousCarts">
+            <div *ngIf="cart.cartItems.length!=0">
+            <div class="card-header d-flex fw-bold justify-content-between align-items-center">
+                <span class="time"> תאריך : 
+                    <span class="fs-5">{{ cart.orderedOn}}</span>
+                </span>
+                <span class="count">כמות : 
+                    {{cart.cartItems.length}}</span>
+                <span class="price">
+                    &#8362;	
+                    מחיר :
+                     <span class="fs-5">
+                        {{utilityService.calculatePricePaid(cart)}}
+                    </span>
+                </span>
+            </div>
+            <div class="card-body px-4 py-2">
+                <div class="row g-0">
+                    <div class="col-2 px-2 py-2" *ngFor="let cartItem of cart.cartItems">
+                        <app-product [view]="'prevcartitem'" [product]="cartItem.product"></app-product>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
